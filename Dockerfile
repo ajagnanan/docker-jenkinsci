@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins:2.15
+FROM jenkinsci/jenkins:2.34
 # if we want to install via apt
 USER root
 RUN apt-get update && apt-get install -y ruby build-essential libssl-dev
